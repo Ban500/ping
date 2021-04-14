@@ -1,0 +1,7 @@
+$nomention
+$username[$mentioned[1]]#$discriminator[$mentioned[1]] has been **Warned.**
+
+
+$onlyPerms[kick;Sorry,this command is unavailable for you to use. Missing `kick` permissions]
+$argsCheck[>1;Please mention someone]
+$setUserVar[Warn;$sum[$getUserVar[Warn;$mentioned[1]];1];$mentioned[1]]
